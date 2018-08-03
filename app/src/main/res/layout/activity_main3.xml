@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main3Activity"
+    android:background="@drawable/add_back">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="190dp"
+        android:layout_height="38dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="42dp"
+        android:layout_marginTop="242dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:ignore="LabelFor"
+        android:layout_marginRight="42dp"
+        android:layout_alignParentRight="true" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="191dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editText"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:inputType="number"
+        tools:ignore="LabelFor"
+        android:layout_alignLeft="@+id/editText" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="198dp"
+        android:layout_height="38dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/editText"
+        android:layout_marginBottom="238dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_alignLeft="@+id/editText"
+        tools:ignore="LabelFor" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="171dp"
+        android:text="add a product"
+        android:textColor="@android:color/black"
+        android:textSize="35sp"
+        app:fontFamily="@font/graduate"
+        tools:ignore="RelativeOverlap" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="31dp"
+        android:layout_marginStart="35dp"
+        android:text="back"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="35dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/button4"
+        android:layout_marginEnd="35dp"
+        android:text="next"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="35dp" />
+
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/editText"
+        android:layout_alignLeft="@+id/textView13"
+        android:layout_alignStart="@+id/textView13"
+        android:text="Product name"
+        android:textColor="@android:color/black"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/editText6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="17dp"
+        android:layout_marginStart="17dp"
+        android:text="Product ID"
+        android:textColor="@android:color/black"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/editText3"
+        android:layout_alignLeft="@+id/textView12"
+        android:layout_alignStart="@+id/textView12"
+        android:text="Product price"
+        android:textColor="@android:color/black"
+        android:textSize="17sp" />
+
+    <RadioGroup
+        android:layout_width="147dp"
+        android:layout_height="112dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView12"
+        android:layout_marginBottom="103dp"
+        android:layout_alignLeft="@+id/textView12">
+
+        <RadioButton
+            android:id="@+id/radioButton9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="old product"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/radioButton10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="new product"
+            android:textSize="18sp" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:layout_width="145dp"
+        android:layout_height="107dp"
+        android:layout_alignEnd="@+id/editText3"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="106dp"
+        android:layout_marginEnd="-16dp"
+        android:layout_alignRight="@+id/editText3"
+        android:layout_marginRight="-16dp">
+
+        <RadioButton
+            android:id="@+id/radioButton12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="working"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/radioButton11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="not working"
+            android:textSize="18sp" />
+    </RadioGroup>
+
+</RelativeLayout>

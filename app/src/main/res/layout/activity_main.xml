@@ -4,31 +4,61 @@
 
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
 
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/backgroud_color">
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="150dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="127dp"
-        android:text="@string/login" />
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="125dp"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
-        android:layout_marginBottom="34dp"
-        android:layout_marginStart="21dp"
-        android:text="@string/quit"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="21dp" />
+        android:layout_marginBottom="163dp"
+        android:gravity="center_horizontal"
+        android:layout_alignParentLeft="true">
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center"
+            android:background="#000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:text="or" />
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center"
+            android:background="#000" />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="202dp"
+        android:text="login" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="282dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="96dp"
+        android:text="Sign up" />
 
     <TextView
         android:id="@+id/textView2"
@@ -36,29 +66,30 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="58dp"
-        android:text="@string/welcome_entrepoter"
+        android:layout_marginTop="111dp"
+        android:text="welcome Entrepoter !"
         android:textColor="@android:color/background_light"
-        android:textSize="28sp" />
+        android:textSize="28sp"
+        app:fontFamily="@font/graduate" />
 
     <EditText
-        android:id="@+id/editText4"
+        android:id="@+id/email"
         android:layout_width="271dp"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="225dp"
+        android:layout_marginTop="192dp"
         android:ems="10"
         android:inputType="textEmailAddress"
         tools:ignore="LabelFor" />
 
     <EditText
-        android:id="@+id/editText5"
+        android:id="@+id/pass"
         android:layout_width="271dp"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="249dp"
+        android:layout_marginTop="289dp"
         android:ems="10"
         android:inputType="textPassword"
         tools:ignore="LabelFor" />
@@ -67,30 +98,39 @@
         android:id="@+id/textView15"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/editText4"
+        android:layout_below="@+id/email"
         android:layout_centerHorizontal="true"
-        android:text="@string/e_mail_id"
+        android:text="E mail id"
         android:textColor="@android:color/background_light" />
 
     <TextView
         android:id="@+id/textView16"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/editText5"
+        android:layout_below="@+id/pass"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="-249dp"
-        android:text="@string/password"
+        android:text="password"
         android:textColor="@android:color/background_light" />
 
     <Button
         android:id="@+id/button6"
         android:layout_width="125dp"
         android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignTop="@+id/button2"
-        android:layout_marginEnd="21dp"
-        android:text="@string/about"
-        android:layout_alignParentRight="true"
-        android:layout_marginRight="21dp" />
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="22dp"
+        android:text="about" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:text="Entrept"
+        android:textColor="@android:color/background_light"
+        android:textSize="40sp"
+        app:fontFamily="@font/graduate" />
 
 </RelativeLayout>

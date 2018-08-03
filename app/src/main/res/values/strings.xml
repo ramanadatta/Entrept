@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="select_action">Select action</string>
+    <string name="view_item">View Item</string>
+</resources>
