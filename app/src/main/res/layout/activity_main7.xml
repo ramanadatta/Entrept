@@ -9,8 +9,10 @@
     <android.support.v7.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="70dp"
-        android:layout_marginTop="52dp"
-        app:cardBackgroundColor="#4c4cff" >
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="178dp"
+        app:cardBackgroundColor="#4c4cff">
 
         <TextView
             android:id="@+id/textView22"
@@ -28,9 +30,9 @@
         android:id="@+id/editText4"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="218dp"
+        android:layout_marginBottom="269dp"
         android:ems="10"
         android:hint="product ID"
         android:inputType="number" />
@@ -41,6 +43,15 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="232dp"
-        android:text="Button" />
+        android:layout_marginBottom="132dp"
+        android:text="View" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="82dp"
+        android:layout_height="116dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        app:srcCompat="@drawable/view" />
 </RelativeLayout>
