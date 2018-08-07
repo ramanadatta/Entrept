@@ -21,11 +21,11 @@
     <android.support.v7.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginTop="160dp"
-        app:cardBackgroundColor="#7fbf7f"
-        android:layout_alignParentLeft="true">
+        app:cardBackgroundColor="#4ca64c">
 
         <TextView
             android:id="@+id/textView19"
@@ -60,23 +60,23 @@
     <android.support.v7.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginTop="280dp"
-        app:cardBackgroundColor="#7f7fff"
-        android:layout_alignParentLeft="true">
+        app:cardBackgroundColor="#4c4cff">
 
         <TextView
             android:id="@+id/textView20"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
             android:layout_marginTop="10dp"
             android:text="@string/view_item"
             android:textColor="@android:color/black"
             android:textSize="25sp"
-            app:fontFamily="@font/graduate"
-            android:layout_marginStart="10dp" />
+            app:fontFamily="@font/graduate" />
 
         <Button
             android:id="@+id/button9"
@@ -99,10 +99,10 @@
         android:layout_width="match_parent"
         android:layout_height="80dp"
         android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_marginBottom="138dp"
-        app:cardBackgroundColor="#ff9999"
-        android:layout_alignParentLeft="true">
+        app:cardBackgroundColor="#ff3232">
 
         <TextView
             android:id="@+id/textView21"
